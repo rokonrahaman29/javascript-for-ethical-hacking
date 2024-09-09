@@ -1,0 +1,19 @@
+# javascript-for-ethical-hacking
+day1 
+  install kali linux in your respected system.
+  for windows use the virtual box and for mac use the utm
+  in utm you could use the pre installed kali by accessing the gallery
+  once done with the installation do update.
+  once updation is done configure the dvwa
+           use cmd:- sudo docker run --rm -it -d -p 127.0.0.1:8080:80 vulnerable/web-dvwa 
+
+  install the code-oss to have proper accessing to the ssh ports to run dockers if needed
+           use cmd:- sudo apt install open-ssh
+  
+  once its done confiugure the the owasp juice shop
+           use the cmd:- sudo docker run --rm -it -d -p 127.0.0.1:3000:3000 bkimminich/juice-shop 
+
+
+  note the cmds might change with the cersions getting added to it, so kindly look it, if errors runs use the documentation or --help.
+
+  thtas for the day day.
